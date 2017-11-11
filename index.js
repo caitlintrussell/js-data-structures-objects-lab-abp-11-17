@@ -6,3 +6,4 @@ function updateDriverWithKeyAndValue(obj, key, value) {
   return newDriver
 }
 updateDriverWithKeyAndValue(driver, 'name', 'Sam' );
+driver.name = 'Sam';
