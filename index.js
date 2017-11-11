@@ -18,4 +18,4 @@ function deleteFromDriverByKey(obj, key) {
 const driverClone =  Object.assign({}, obj, [key]);
 delete obj.key;
 }
-deleteFromDriverByKey(driver,name);
+deleteFromDriverByKey(driver,'name');
