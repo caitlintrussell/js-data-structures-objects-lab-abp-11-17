@@ -1,3 +1,3 @@
 // Write your solution in this file!
-const driver = {};
+const driver = {name: 'sam'};
 driver.name = 'Sam';
