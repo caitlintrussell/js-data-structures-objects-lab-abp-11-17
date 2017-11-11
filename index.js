@@ -1,4 +1,3 @@
 // Write your solution in this file!
-const driver = {name: 'sam'};
-
-
+const driver = {};
+driver['name:'] = 'Sam';
