@@ -6,4 +6,8 @@ function updateDriverWithKeyAndValue(obj, key, value) {
   return newDriver
 }
 updateDriverWithKeyAndValue(driver, 'name', 'Sam' );
-driver.name = 'Sam';
+function destructivelyUpdateDriverWithKeyAndValue(obj, key, value) {
+  obj.key = value;
+  return obj;
+}
+destructivelyUpdateDriverWithKeyAndValue(driver, 'name', 'Sam');
