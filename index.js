@@ -17,4 +17,4 @@ function deleteFromDriverByKey(object, key){
  delete object.key;
  return object;
 }
-deleteFromDriverByKey (newDriver, Sam);
+deleteFromDriverByKey (newDriver, 'name');
