@@ -5,12 +5,16 @@ function updateDriverWithKeyAndValue(obj, key, value) {
   newDriver[key] = value;
   return newDriver
 }
+
 function destructivelyUpdateDriverWithKeyAndValue(obj,key,value){
   obj[key]=value;
   return obj;
 }
 destructivelyUpdateDriverWithKeyAndValue(driver, 'name', 'Sam');
 destructivelyUpdateDriverWithKeyAndValue(driver, 'Address', '12 Broadway');
-function deleteFromDriverByKey(){
-  
+
+function deleteFromDriverByKey(object, key){
+ delete object.key;
+ return object;
 }
+deleteFromDriverByKey (newDriver, 'name');
